@@ -8,10 +8,10 @@ Multiplication(){
     echo $(($a*$b))
 }
 read -p "enter + for ADD or * for Multiplication" action 
-if ["$action" == "+"]; then
+if [ "$action" == "+" ]; then
 ADD
 exit 0
-elif ["$action" == "*"]; then
+elif [ "$action" == "*" ]; then
 Multiplication
 exit 0
 else
