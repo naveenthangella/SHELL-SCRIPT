@@ -5,7 +5,7 @@ ADD(){
     echo $(($a+$b))
 }
 Multiplication(){
-    echo $($a*$b)
+    echo $(($a*$b))
 }
 ADD
 Multiplication
