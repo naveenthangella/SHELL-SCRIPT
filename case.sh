@@ -2,7 +2,7 @@
 
 
 read -p "enter two numbers" a b
-action=$1
+read -p "enter the operation:\n\t 1.ADD\n\t 2.Subtract \n\t 3.Multiply \n\t 4.Divide" action
 
 case $action in
 ADD)
@@ -17,7 +17,7 @@ Divide)
     echo $(($a/$b))
     exit 0
     ;;
-substract)
+Subtract)
     echo $(($a-$b))
     exit 0
     ;;
