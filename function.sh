@@ -2,7 +2,7 @@
 a=5
 b=10
 ADD(){
-    echo $a+$b
+    echo (($a+$b))
 }
 Multiplication(){
     echo $a*$b
