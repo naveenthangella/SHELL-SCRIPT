@@ -18,7 +18,7 @@ Divide)
     exit 0
     ;;
 substract)
-    echo $(($a*$b))
+    echo $(($a-$b))
     exit 0
     ;;
 *)
