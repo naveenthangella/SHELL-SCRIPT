@@ -1,7 +1,8 @@
 #!bin/bash
 
-action = $1
+
 read -p "enter two numbers" a b
+action=$1
 
 case $action in
 ADD)
