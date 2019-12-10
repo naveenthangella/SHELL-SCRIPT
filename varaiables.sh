@@ -1,4 +1,4 @@
 #!bin/bash
 
 Name=Naveen
-echo "Hello \n\tIm $Name"
+echo -e "Hello \n\tIm $Name"
