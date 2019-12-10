@@ -2,7 +2,8 @@
 
 
 read -p "enter two numbers" a b
-read -p "enter the operation:\n\t 1.ADD\n\t 2.Subtract \n\t 3.Multiply \n\t 4.Divide" action
+echo -e "enter the operation:\n\t 1.ADD\n\t 2.Subtract \n\t 3.Multiply \n\t 4.Divide"
+read action
 
 case $action in
 ADD)
