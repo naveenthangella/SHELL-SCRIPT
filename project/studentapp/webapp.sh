@@ -53,7 +53,7 @@ if [ $? -ne 0 ]; then
 fi 
 
 cd /home/$APPUSER 
-curl -s http://apachemirror.wuchna.com/tomcat/tomcat-8/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz | tar -xz
+curl -s https://archive.apache.org/dist/tomcat/tomcat-8/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz | tar -xz
 STATUS_CHECK $? "Download Tomcat"
 
 cd /home/$APPUSER/apache-tomcat-${TOMCAT_VERSION} 
